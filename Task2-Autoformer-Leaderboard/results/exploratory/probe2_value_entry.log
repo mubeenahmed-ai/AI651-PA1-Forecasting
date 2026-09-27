@@ -1,0 +1,10 @@
+value lr1e-3               s0 P 23489 val 75.88 test 70.04 best_ep 2 E 5 curve [82.8, 75.9, 81.7, 85.9, 86.8]
+value lr1e-3               s1 P 23489 val 67.48 test 62.26 best_ep 6 E 9 curve [78.4, 71.6, 70.9, 68.3, 69.2, 67.5, 68.7, 68.6, 68.4]
+value lr1e-4               s0 P 23489 val 78.12 test 67.80 best_ep 10 E 10 curve [78.7, 78.6, 79.2, 78.6, 78.2, 78.4, 78.3, 78.2, 78.1, 78.1]
+value lr1e-4               s1 P 23489 val 76.97 test 67.38 best_ep 2 E 5 curve [77.2, 77.0, 77.6, 77.8, 77.5]
+value lr1e-4 daily-only    s0 P 23361 val 76.95 test 65.91 best_ep 5 E 8 curve [79.1, 77.1, 77.9, 78.3, 77.0, 77.2, 77.4, 77.4]
+value lr1e-4 daily-only    s1 P 23361 val 76.09 test 67.56 best_ep 2 E 5 curve [77.3, 76.1, 76.2, 76.5, 77.1]
+value lr1e-4 no-log        s0 P 23489 val 73.16 test 64.53 best_ep 2 E 5 curve [74.3, 73.2, 73.8, 73.6, 73.6]
+value lr1e-4 no-log        s1 P 23489 val 71.90 test 63.89 best_ep 4 E 7 curve [74.0, 72.6, 72.2, 71.9, 72.1, 72.1, 72.2]
+
+[exited with code 0]

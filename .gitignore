@@ -1,0 +1,18 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Original e-mail attachment (the handout and data are copied into the task folders)
+DL4STG-PA1/
+DL4STG-PA1.zip
+
+# Model checkpoints are reproducible from the code; keep the repository light
+Task1-Heterogeneous-Sensor-Forecasting/checkpoints/
+.pytest_cache/
+
+# Course material and personal notes (not part of the submission)
+handout/
+docs/

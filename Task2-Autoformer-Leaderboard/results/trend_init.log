@@ -1,0 +1,98 @@
+[trend init last] seed 0
+  epoch  1  train loss 1.4085  val RMSE 89.06  MAE 74.45
+  epoch  2  train loss 1.2788  val RMSE 89.31  MAE 74.86
+  epoch  3  train loss 1.2478  val RMSE 88.63  MAE 74.00
+  epoch  4  train loss 1.2315  val RMSE 89.35  MAE 75.06
+  epoch  5  train loss 1.2293  val RMSE 89.69  MAE 75.47
+  epoch  6  train loss 1.2278  val RMSE 89.59  MAE 75.31
+  -> val RMSE 88.63  test RMSE 82.69  P=23489  E=6
+[trend init last] seed 1
+  epoch  1  train loss 1.4230  val RMSE 88.76  MAE 73.57
+  epoch  2  train loss 1.2973  val RMSE 89.05  MAE 74.90
+  epoch  3  train loss 1.2696  val RMSE 89.29  MAE 75.05
+  epoch  4  train loss 1.2553  val RMSE 89.21  MAE 75.04
+  -> val RMSE 88.76  test RMSE 84.49  P=23489  E=4
+[trend init last] seed 2
+  epoch  1  train loss 1.4583  val RMSE 90.36  MAE 75.96
+  epoch  2  train loss 1.3204  val RMSE 91.13  MAE 77.34
+  epoch  3  train loss 1.2921  val RMSE 91.83  MAE 78.10
+  epoch  4  train loss 1.2798  val RMSE 91.47  MAE 77.49
+  -> val RMSE 90.36  test RMSE 85.69  P=23489  E=4
+[trend init last, d_model 16] seed 0
+  epoch  1  train loss 1.5154  val RMSE 93.37  MAE 78.55
+  epoch  2  train loss 1.4154  val RMSE 92.85  MAE 78.35
+  epoch  3  train loss 1.3969  val RMSE 92.08  MAE 77.27
+  epoch  4  train loss 1.3815  val RMSE 92.07  MAE 77.48
+  epoch  5  train loss 1.3756  val RMSE 92.15  MAE 77.63
+  epoch  6  train loss 1.3706  val RMSE 92.16  MAE 77.67
+  epoch  7  train loss 1.3672  val RMSE 92.22  MAE 77.71
+  -> val RMSE 92.07  test RMSE 88.05  P=6625  E=7
+[trend init last, d_model 16] seed 1
+  epoch  1  train loss 1.4859  val RMSE 91.06  MAE 76.05
+  epoch  2  train loss 1.3451  val RMSE 90.07  MAE 75.01
+  epoch  3  train loss 1.3177  val RMSE 90.16  MAE 75.33
+  epoch  4  train loss 1.3066  val RMSE 89.74  MAE 74.71
+  epoch  5  train loss 1.3014  val RMSE 90.01  MAE 75.05
+  epoch  6  train loss 1.3001  val RMSE 89.82  MAE 74.85
+  epoch  7  train loss 1.2983  val RMSE 89.84  MAE 74.89
+  -> val RMSE 89.74  test RMSE 84.64  P=6625  E=7
+[trend init last, d_model 16] seed 2
+  epoch  1  train loss 1.5191  val RMSE 93.05  MAE 77.88
+  epoch  2  train loss 1.3764  val RMSE 92.10  MAE 76.66
+  epoch  3  train loss 1.3443  val RMSE 91.74  MAE 76.72
+  epoch  4  train loss 1.3264  val RMSE 90.97  MAE 75.59
+  epoch  5  train loss 1.3223  val RMSE 91.03  MAE 75.89
+  epoch  6  train loss 1.3190  val RMSE 91.00  MAE 75.85
+  epoch  7  train loss 1.3171  val RMSE 91.16  MAE 76.07
+  -> val RMSE 90.97  test RMSE 85.83  P=6625  E=7
+[trend init last, exog: past only] seed 0
+  epoch  1  train loss 1.4668  val RMSE 95.98  MAE 79.41
+  epoch  2  train loss 1.3708  val RMSE 96.83  MAE 79.96
+  epoch  3  train loss 1.3440  val RMSE 96.49  MAE 79.49
+  epoch  4  train loss 1.3333  val RMSE 96.59  MAE 80.05
+  -> val RMSE 95.98  test RMSE 92.79  P=23489  E=4
+[trend init last, exog: past only] seed 1
+  epoch  1  train loss 1.4543  val RMSE 96.56  MAE 79.86
+  epoch  2  train loss 1.3679  val RMSE 96.41  MAE 79.53
+  epoch  3  train loss 1.3393  val RMSE 96.19  MAE 80.04
+  epoch  4  train loss 1.3262  val RMSE 96.53  MAE 79.82
+  epoch  5  train loss 1.3204  val RMSE 96.68  MAE 80.12
+  epoch  6  train loss 1.3177  val RMSE 96.65  MAE 79.99
+  -> val RMSE 96.19  test RMSE 92.20  P=23489  E=6
+[trend init last, exog: past only] seed 2
+  epoch  1  train loss 1.4645  val RMSE 96.95  MAE 80.43
+  epoch  2  train loss 1.3596  val RMSE 96.37  MAE 79.88
+  epoch  3  train loss 1.3319  val RMSE 96.23  MAE 79.72
+  epoch  4  train loss 1.3209  val RMSE 96.53  MAE 79.88
+  epoch  5  train loss 1.3139  val RMSE 96.45  MAE 79.85
+  epoch  6  train loss 1.3103  val RMSE 96.53  MAE 80.00
+  -> val RMSE 96.23  test RMSE 91.38  P=23489  E=6
+[trend init last, exog: none] seed 0
+  epoch  1  train loss 1.7004  val RMSE 103.83  MAE 86.86
+  epoch  2  train loss 1.5600  val RMSE 101.49  MAE 84.60
+  epoch  3  train loss 1.4804  val RMSE 100.89  MAE 84.24
+  epoch  4  train loss 1.4445  val RMSE 101.23  MAE 84.81
+  epoch  5  train loss 1.4313  val RMSE 100.92  MAE 84.42
+  epoch  6  train loss 1.4280  val RMSE 101.01  MAE 84.53
+  -> val RMSE 100.89  test RMSE 95.56  P=21569  E=6
+[trend init last, exog: none] seed 1
+  epoch  1  train loss 1.6915  val RMSE 102.61  MAE 85.49
+  epoch  2  train loss 1.5381  val RMSE 101.33  MAE 84.37
+  epoch  3  train loss 1.4603  val RMSE 101.44  MAE 84.73
+  epoch  4  train loss 1.4328  val RMSE 100.03  MAE 83.18
+  epoch  5  train loss 1.4229  val RMSE 100.02  MAE 83.11
+  epoch  6  train loss 1.4171  val RMSE 99.85  MAE 82.90
+  epoch  7  train loss 1.4157  val RMSE 99.98  MAE 83.13
+  epoch  8  train loss 1.4170  val RMSE 99.84  MAE 82.95
+  epoch  9  train loss 1.4125  val RMSE 99.80  MAE 82.90
+  epoch 10  train loss 1.4133  val RMSE 99.77  MAE 82.89
+  -> val RMSE 99.77  test RMSE 94.16  P=21569  E=10
+[trend init last, exog: none] seed 2
+  epoch  1  train loss 1.6990  val RMSE 103.24  MAE 86.20
+  epoch  2  train loss 1.5563  val RMSE 101.85  MAE 85.12
+  epoch  3  train loss 1.4766  val RMSE 101.98  MAE 85.40
+  epoch  4  train loss 1.4429  val RMSE 100.81  MAE 84.08
+  epoch  5  train loss 1.4276  val RMSE 100.85  MAE 84.17
+  epoch  6  train loss 1.4228  val RMSE 100.92  MAE 84.27
+  epoch  7  train loss 1.4244  val RMSE 101.03  MAE 84.44
+  -> val RMSE 100.81  test RMSE 95.41  P=21569  E=7

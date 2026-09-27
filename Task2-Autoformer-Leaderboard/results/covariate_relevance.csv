@@ -1,0 +1,11 @@
+feature,corr same step,corr with y 24 steps later,corr of 24-step change
+feature_A,0.328,0.124,0.673
+feature_B,0.045,0.028,-0.011
+feature_C,-0.185,0.002,-0.424
+feature_D,-0.356,-0.16,-0.295
+feature_E,0.034,-0.007,0.021
+feature_F,-0.053,-0.075,-0.064
+feature_G,-0.067,-0.023,-0.078
+feature_H,-0.354,-0.223,-0.288
+feature_I,0.237,0.153,0.204
+feature_J,0.187,0.097,0.153

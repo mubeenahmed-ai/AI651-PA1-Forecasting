@@ -1,0 +1,12 @@
+lr1e-4                       s0 val 76.08 test 71.02 best_ep 1 E 4 curve [76.1, 76.5, 78.1, 79.0]
+lr1e-4                       s1 val 77.23 test 69.53 best_ep 4 E 7 curve [79.1, 78.2, 77.6, 77.2, 77.4, 77.5, 77.4]
+lr1e-4 drop0.3               s0 val 77.58 test 71.96 best_ep 1 E 4 curve [77.6, 78.1, 79.5, 79.6]
+lr1e-4 drop0.3               s1 val 79.08 test 72.35 best_ep 2 E 5 curve [79.5, 79.1, 79.4, 79.9, 80.3]
+lr1e-4 daily-phase-only      s0 val 74.00 test 65.70 best_ep 10 E 10 curve [75.8, 74.8, 74.4, 74.1, 74.2, 74.2, 74.0, 74.1, 74.0, 74.0]
+lr1e-4 daily-phase-only      s1 val 76.47 test 66.42 best_ep 8 E 10 curve [79.4, 78.0, 77.3, 76.8, 76.6, 76.6, 76.5, 76.5, 76.5, 76.5]
+lr1e-4 no-log                s0 val 72.14 test 64.27 best_ep 5 E 8 curve [73.8, 73.0, 72.5, 73.0, 72.1, 72.6, 72.5, 72.6]
+lr1e-4 no-log                s1 val 71.80 test 66.67 best_ep 6 E 9 curve [76.8, 73.5, 72.8, 72.2, 72.0, 71.8, 71.9, 71.9, 71.8]
+lr3e-4 wd1e-2 drop0.2        s0 val 76.22 test 66.92 best_ep 2 E 5 curve [82.5, 76.2, 77.3, 76.9, 76.6]
+lr3e-4 wd1e-2 drop0.2        s1 val 79.57 test 70.07 best_ep 1 E 4 curve [79.6, 82.8, 82.2, 82.4]
+
+[exited with code 0]

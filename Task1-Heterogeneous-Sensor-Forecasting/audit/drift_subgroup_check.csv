@@ -1,0 +1,9 @@
+model,group,windows,validation MSE,gain vs Raw Attention
+Raw Attention,top-quartile slow range,79,0.12018272439862072,0.0
+Raw Attention,other windows,236,0.1998432001971062,0.0
+Attention + decomposition,top-quartile slow range,79,0.1021182788212601,-0.01806444557736063
+Attention + decomposition,other windows,236,0.08474641459585942,-0.11509678560124677
+Raw delay mixer,top-quartile slow range,79,0.037492288376340464,-0.08269043602228027
+Raw delay mixer,other windows,236,0.050255634737516555,-0.14958756545958962
+Autoformer-inspired,top-quartile slow range,79,0.04085059153324846,-0.07933213286537227
+Autoformer-inspired,other windows,236,0.03903074604830462,-0.16081245414880158
