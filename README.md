@@ -42,4 +42,4 @@ python scripts/make_submission.py --config "trend init decay, d_model 16" --seed
 
 ## Academic integrity and AI use
 
-Generative-AI assistance was used in preparing this repository. The handout requires the prompts, outputs and the edits made to them to be listed at the end of the report.
+Generative-AI assistance was used in coding, formatting of the report and understanding of the main concepts. 
